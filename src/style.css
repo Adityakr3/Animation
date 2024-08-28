@@ -1,0 +1,12 @@
+html , body , #root{
+    width:100%;
+    height:97%;
+}
+#root{
+    background-color: black;
+}
+
+h1{ 
+    text-shadow: 0 0 2px #03e9f4, 0 0 12px #03e9f4, 0 0 25px #03e9f4,
+    0 0 50px #03e9f4;
+}
