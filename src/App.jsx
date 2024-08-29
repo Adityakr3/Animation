@@ -12,7 +12,7 @@ import {
 const App = () => {
   return (
     <>
-      <Canvas camera={{ fov: 25 }}>
+      <Canvas camera={{ fov:55 }}>
         <OrbitControls />
         <ambientLight />
         <Cylender />

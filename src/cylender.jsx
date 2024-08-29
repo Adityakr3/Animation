@@ -9,9 +9,9 @@ const Cylender = () => {
     Cylender.current.rotation.y += delta
   })
   return (
-     <group rotation={[0, 1.4, 5]}>
+     <group rotation={[0, .8, 19]}>
          <mesh ref={Cylender}>
-        <cylinderGeometry args={[2, 2, 2, 60, 60, true]} />
+        <cylinderGeometry args={[2, 2, 2, 30, 30, true]} />
         <meshStandardMaterial map={image} transparent side={THREE.DoubleSide} />
       </mesh>
      </group>
